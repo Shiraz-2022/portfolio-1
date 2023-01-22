@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+
+    <link rel="icon" href="images/fav-icon-portfoloio.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <div class="main_container">
+
+            <!-- NAVBAR SECTION -->
+            <div class="starting_section">
+                <div class="collapse_button_container container-fluid hidden">
+                    <button class="collapse_button btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                </div>
+
+                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    <div class="navbar_after_collapse">
+                        <a href="#works_section">WORKS</a>
+                        <a href="#SKILLS_SECTION">SKILLS</a>
+                        <a href="#CONTACTS_SECTION">CONTACT ME</a>
+                    </div>
+                </div>
+                
+                    <div class="nav_bar">
+                        <a href="#works_section">WORKS</a>
+                        <a href="#SKILLS_SECTION">SKILLS</a>
+                        <a href="#CONTACTS_SECTION">CONTACT ME</a>
+                    </div>
+
+                <!-- PROFILE SECTION -->
+                <div class="about_me">
+                    <img class="profile_pic" src="images\profile.png" alt="profile-pc">
+                    <p>Hi, my name is <span class="name">Shiraz yousuf</span> and iam a computer science enthusiast who
+                        is currently
+                        studying in <span class="college">IIIT Dharwad</span> and i love playing football.</p>
+                </div>
+                <hr>
+            </div>
+
+
+            <!-- education section -->
+            <div class="education">
+                <h3 class="education_heading">EDUCATIONS</h3>
+                <ul class="education_lists">
+                    <li>Studied in Rani Public School till 12th.</li>
+                    <li>Currently studying ECE engineering at IIIT Dharwad.</li>
+                </ul>
+
+                <hr>
+            </div>
+
+            <!-- works_section -->
+
+            <section id="works_section">
+                <h3 class="works_heading">WORKS</h3>
+
+
+                <div class="container works_div">
+                    <div class="row">
+
+                        <div class="col col-lg-4">
+                            <div class="work card">
+                                <img class="Work_image" src="images\web-design-3411373__480.webp" class="card-img-top"
+                                    alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">x website</h5>
+                                    <a href="" class="btn btn-outline-secondary">visit site</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-4">
+                            <div class="work card">
+                                <img class="Work_image" src="images\web-design-3411373__480.webp" class="card-img-top"
+                                    alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">y website</h5>
+                                    <a href="" class="btn btn-outline-secondary">visit site</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-4">
+                            <div class="work card">
+                                <img class="Work_image" src="images\web-design-3411373__480.webp" class="card-img-top"
+                                    alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">z website</h5>
+                                    <a href="" class="btn btn-outline-secondary">visit site</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- SKILLS SECTION -->
+            <section id="SKILLS_SECTION">
+                <div id="different_skills" class="skills carousel slide">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#different_skills" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#different_skills" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#different_skills" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="container java carousel-item active">
+                            <img class="java_image" src="images\java.png" alt="">
+                            <h4>JAVA</h4>
+                            <p>My programming journey started with java and i have been using it for the past two years
+                                and
+                                iam quite good in it.</p>
+                        </div>
+
+                        <div class="container webd carousel-item">
+                            <img class="webd_image" src="images\coding.png" alt="">
+                            <h4>Front-end web development</h4>
+                            <p>I have learned HTML,CSS and Java Script and i have been doing some small projects by
+                                applying
+                                my front end development skills.
+                            </p>
+                        </div>
+
+                        <div class="container dsa carousel-item">
+                            <img class="dsa_image" src="images\algorithm.png" alt="">
+                            <h4>DSA in java</h4>
+                            <p>I have almost all the major concepts of DSA in java and i practise related problems on a
+                                daily
+                                basis.</p>
+                        </div>
+                    </div>
+
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#different_skills"
+                        data-bs-slide="prev">
+                        <img class="left_arrow carousel-control-prev-icon" src="images\left.png" alt="">
+
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#different_skills"
+                        data-bs-slide="next">
+                        <img class="right_arrow carousel-control-next-icon" src="images\next.png" alt="">
+
+                    </button>
+
+                </div>
+            </section>
+
+
+            <!-- RATING SECTION -->
+            <div class="end_section">
+                <div class="rating">
+                    <h4>How would you rate this website out of 5</h4>
+                    <div class="buttons">
+                        <button class="rating_buttons">1</button>
+                        <button class="rating_buttons">2</button>
+                        <button class="rating_buttons">3</button>
+                        <button class="rating_buttons">4</button>
+                        <button class="rating_buttons">5</button>
+                    </div>
+                    <h4 hidden>Thank you for the feedback</h4>
+                </div>
+
+                <!-- CONTACTS SECTION -->
+                <section id="CONTACTS_SECTION">
+                    <div class="contacts">
+                        <a class="email" href="https://www.gmail.com">shirazyousuf2017@gmail.com</a>
+                        <br>
+                        <a href="https://www.facebook.com"><img class="contact_icons" src="images\facebook 2.png"
+                                alt="facebook-logo"></a>
+                        <a href="https://www.instagram.com"><img class="contact_icons" src="images\instagram 2.png"
+                                alt="instagram-logo"></a>
+                        <a href="https://www.linkedin.com"><img class="contact_icons" src="images\linkedin 2.png"
+                                alt="linkedin-logo"></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
